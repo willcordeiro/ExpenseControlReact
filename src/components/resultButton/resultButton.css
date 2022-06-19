@@ -1,0 +1,60 @@
+.btnResult {
+  background-color: #8f23f5;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 15px;
+  border-radius: 0.2rem;
+  position: relative;
+  display: inline-block;
+  transition: all 0.2s;
+  animation: moveInBottom 0s ease-out;
+  animation-fill-mode: backwards;
+  cursor: pointer;
+  color: rgb(228, 216, 216);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  border: none;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.btnResult::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+  background-color: #a34af7;
+}
+
+.btnResult:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #bc75ff;
+}
+
+.btnResult:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btnResult:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}

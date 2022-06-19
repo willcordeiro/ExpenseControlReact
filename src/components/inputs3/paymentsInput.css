@@ -1,0 +1,17 @@
+.inputText1 {
+  height: 40px;
+  outline: none;
+  text-decoration: none;
+  padding: 20px 25px;
+  border: 2px solid #595959;
+  margin-top: 15px;
+  width: 275px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.button {
+  border: none;
+  text-decoration: none;
+  outline: none;
+  background: none;
+}
