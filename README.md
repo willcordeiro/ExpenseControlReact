@@ -9,7 +9,7 @@ This is Project are a Expense Control that let able the user add and remove valu
 
 Connect with me at [LinkedIn](https://www.linkedin.com/in/william-cordeiro-568229238/)
 
-You can access the vídeo of this application at [ExpenseControl](https://www.linkedin.com/feed/update/urn:li:activity:6937486246625619968/)
+You can access the video of this application at [ExpenseControl](https://www.linkedin.com/feed/update/urn:li:activity:6937486246625619968/)
 
 
 ### what you need to have to run this project
