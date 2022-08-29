@@ -1,6 +1,7 @@
 # Expense Control
 
-![dashBoardAdmin](https://user-images.githubusercontent.com/98745885/187314949-d916ccfa-8318-4ffb-8385-b97bc1ff66da.png)
+![expenseControl](https://user-images.githubusercontent.com/98745885/187315714-8e074ec3-6af4-4796-b5f3-3c513606181d.png)
+
 
 
 ## About this Project
